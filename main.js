@@ -19,7 +19,7 @@ function domString() {
 
 // Function to write content to page
 function writeToDom(stringToDom){
-	mainContainerDiv.innerHTML = stringToDom;
+	mainContainerDiv.innerHTML += stringToDom;
 }
 
 // When button is clicked, content is displayed on page
